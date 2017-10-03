@@ -13,10 +13,10 @@ Do not forget to mark it executable.
 ```bash
 # zoomcallrec user parameters config
 sudo mkdir -p /etc/zabbix/zabbix_agentd.d/
-sudo wget https://raw.githubusercontent.com/Vladimir-Ilyin/zabbix-zoomcallrec/master/userparameter_zoomcallrec.conf -O /etc/zabbix/zabbix_agentd.d/userparameter_zoomcallrec.conf
+sudo wget https://raw.githubusercontent.com/Vladimir-Ilyin/zabbix-zoomcallrec/master/zabbix-zoomcallrec/userparameter_zoomcallrec.conf -O /etc/zabbix/zabbix_agentd.d/userparameter_zoomcallrec.conf
 
 # low level discovery script
-sudo wget https://raw.githubusercontent.com/Vladimir-Ilyin/zabbix-zoomcallrec/master/lld-zoomcallrec-status.py -O /usr/local/bin/lld-zoomcallrec-status.py
+sudo wget https://raw.githubusercontent.com/Vladimir-Ilyin/zabbix-zoomcallrec/master/zabbix-zoomcallrec/lld-zoomcallrec-status.py -O /usr/local/bin/lld-zoomcallrec-status.py
 sudo chmod +x /usr/local/bin/lld-zoomcallrec-status.py
 ```
 
