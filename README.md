@@ -26,7 +26,7 @@ sudo chmod +x /usr/local/bin/lld-zoomcallrec-status.py
 After that restart zabbix-agent
 ```sudo service zabbix-agent restart```
 
-Go to Zabbix's web interface, Configuration->Templates and import `Template App ZoomCallRec Service.xml`.
+Go to Zabbix's web interface, Configuration->Templates and import `Template-App-ZoomCallRec-Service.xml`.
 After that you should be able to monitor ZoomCallRec services.
 
 Please note, that items are created for each service individually using discovery script, so do not expect to
