@@ -34,8 +34,7 @@ find them under usual configuration -- they would be in `Discovery rules` sectio
 
 ![Discovery Rules](https://github.com/Vladimir-Ilyin/zabbix-zoomcallrec/blob/master/images/discovery_rules.png?raw=true=250x)
 
-Low level discovery will list your services with status
-Service will be mapped with their RMI bind name, module name and id.
+Low level discovery will list your services with statuses. Each service will be mapped with their RMI bind name, module name and id.
 
 
 Testing
